@@ -1,6 +1,6 @@
 package com.emard.factory.model;
 
-public class MozambicanVeggieBurger extends Hamburger {
+public class MozambicanVeggieBurger implements Hamburger {
     @Override
     public void prepare() {
         System.out.println("Prepare MozambicanVeggieBurger");
