@@ -1,12 +1,18 @@
 package com.emard.singleton;
 
 public class MyClass {
-    public static MyClass INSTANCE = new MyClass();
+    private static volatile  MyClass INSTANCE;
     private MyClass(){}
-    public static /*synchronized*/ MyClass getInstance(){
-        /*if(INSTANCE == null){
-            INSTANCE = new MyClass();
-        }*/
+    //Double check locking
+    public static  MyClass getInstance(){
+        if(INSTANCE == null){
+            synchronized ((MyClass.class)){
+                if(INSTANCE == null){
+                    INSTANCE = new MyClass();
+                }
+            }
+
+        }
         return INSTANCE;
     }
 }
