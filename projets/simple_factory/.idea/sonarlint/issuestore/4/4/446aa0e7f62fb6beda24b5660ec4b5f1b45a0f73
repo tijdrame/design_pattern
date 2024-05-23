@@ -1,0 +1,7 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(Ü×¸ø8¿­ç±ú1
+G	java:S106"+Replace this use of System.out by a logger.(œ÷Â8Â­ç±ú1
+G	java:S106"+Replace this use of System.out by a logger.(œ÷Â8¸ë±ú1
+G	java:S106#"+Replace this use of System.out by a logger.(œ÷Â8ˆùì±ú1
+\
+java:S1128"?Remove this unused import 'com.emard.state.models.SodaMachine'.(§”ìÙ8—Êê±ú1
