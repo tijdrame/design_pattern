@@ -1,10 +1,7 @@
 package com.emard.iterators.models;
 
-import com.emard.iterators.interf.Iterator;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Iterator;
 
 public class DevStoreIterator implements Iterator {
     Product[] catalog;

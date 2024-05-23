@@ -1,9 +1,10 @@
 package com.emard.iterators;
 
-import com.emard.iterators.interf.Iterator;
 import com.emard.iterators.models.DevStoreIterator;
 import com.emard.iterators.models.GeekyStoreIterator;
 import com.emard.iterators.models.Product;
+
+import java.util.Iterator;
 
 
 public class TestIterator {
