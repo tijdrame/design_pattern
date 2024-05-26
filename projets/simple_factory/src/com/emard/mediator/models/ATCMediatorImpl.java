@@ -12,7 +12,6 @@ public class ATCMediatorImpl implements ATCMediator {
     public ATCMediatorImpl() {
         this.airCraftList = new ArrayList<>();
     }
-
     @Override
     public void sendMessage(String msg, AirCraft airCraft) {
         for (AirCraft a : airCraftList) {
@@ -22,7 +21,6 @@ public class ATCMediatorImpl implements ATCMediator {
             }
         }
     }
-
     @Override
     public void addAircraft(AirCraft airCraft) {
         airCraftList.add(airCraft);
